@@ -1,0 +1,45 @@
+header
+{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  font-family: Inter, sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: rgb(130, 130, 130) 0px 10px 10px -12px;
+}
+
+header h1
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-menu
+{
+  display: block;
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu>li
+{
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.header-menu>li:hover
+{
+  text-decoration: underline;
+}
+
+.header-container
+{
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,90 @@
+.cards-container
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.card
+{
+  width: 14.375rem;
+  height: 24.0625rem;
+  border: 2px solid #F5F5F5;
+  box-sizing: border-box;
+  transition: border 1s;
+}
+
+.card:hover
+{
+  border-color: #2E245E;
+}
+
+.card-img
+{
+  width: 100%;
+  margin-bottom: 1.5rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-tag
+{
+  background-color: #2E245E;
+  color: #F5F5F5;
+  display: block;
+  font-size: 0.875rem;
+  width: 5.2rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-name
+{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-desc
+{
+  font-size: 0.875rem;
+  margin: 0 0.5rem 1rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-price
+{
+  font-size: 0.875rem;
+  margin: 0 0.5rem 1rem;
+  color: #37268C;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-cart
+{
+  margin: 0 0.5rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: color 1s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-cart:hover
+{
+  color: #37268C;
+  text-decoration: underline;
+}

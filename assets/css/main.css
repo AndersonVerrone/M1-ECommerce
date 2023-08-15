@@ -1,0 +1,25 @@
+main
+{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  font-family: Inter, sans-serif;
+}
+
+.main-cards
+{
+  min-height: 50vh;
+  width: 75%;
+}
+
+.main-details
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 25%;
+}
